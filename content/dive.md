@@ -9,4 +9,4 @@ curl -fOL "https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/
 rpm -i dive_${DIVE_VERSION}_linux_amd64.rpm
 ```
 
-sudo rpmだと思う。
+sudo rpm?
