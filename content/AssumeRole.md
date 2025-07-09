@@ -68,7 +68,3 @@ $ export AWS_SESSION_TOKEN="zzzzzzzzzzzz"
 **6. 正しく設定されているかを確認**
 
 $ aws sts get-caller-identity
-
-正しくAssume Roleできているかを確認します。以上でCLI上でのAssume Roleをすることができました。
-
-しかし、これをセッションが切れるたびに毎回やるのはめんどくさいですよね…。コマンドの入力ミスや、環境変数の設定ミスが発生しやすくなります。
